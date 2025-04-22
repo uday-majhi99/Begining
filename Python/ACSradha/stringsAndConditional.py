@@ -1,5 +1,5 @@
 #if-elif-else
-
+from time import process_time
 
 thisString = "Here is the string, This is a string"
 print(thisString[3])
@@ -32,3 +32,5 @@ print(len(name))
 #WAP to find he occurrence of "$" in a string
 str = "He$$ i $m h$re to $lp you"
 print(str.count("$"))
+
+print("Hello")
