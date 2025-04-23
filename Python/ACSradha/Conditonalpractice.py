@@ -20,3 +20,10 @@ elif numb2 > numb3 and numb2 > numb1:
 
 else:
     print(f"{numb3} is the greatest number")
+
+multiple_seven = int(input("Enter a number : "))
+
+if multiple_seven % 7 == 0:
+    print(f"{multiple_seven} is the multiple of 7")
+else:
+    print(f"{multiple_seven} is not a multiple 7")
