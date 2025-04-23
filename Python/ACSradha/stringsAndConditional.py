@@ -1,7 +1,23 @@
-#if-elif-else
-from time import process_time
+#if-elif-else(Conditional Statements)
+age = int(input("Enter your age :"))
+
+if age <5:
+    print("You are a toddler")
+
+elif age < 12:
+    print("You are a toddler")
+
+elif age < 20:
+    print("You are a teenager")
+
+elif age < 50:
+    print("You are an adult")
+
+else:
+    print("You are in your  old age")
 
 thisString = "Here is the string, This is a string"
+
 print(thisString[3])
 print(thisString[6]) #character can b access through indexing
 
@@ -30,7 +46,5 @@ print(name)
 print(len(name))
 
 #WAP to find he occurrence of "$" in a string
-str = "He$$ i $m h$re to $lp you"
-print(str.count("$"))
-
-print("Hello")
+strng = "He$$ i $m h$re to $lp you"
+print(strng.count("$"))
