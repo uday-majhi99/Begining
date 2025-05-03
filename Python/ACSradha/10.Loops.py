@@ -36,17 +36,64 @@
 #     print(multi*i)
 #     i = i + 1
 
-i = 1
-squares = []
-while i <=10:
-    print(i*i)
-    squares.append(i*i)
-    i = i + 1
+# i = 1
+# squares = []
+# while i <=10:
+#     print(i*i)
+#     squares.append(i*i)
+#     i = i + 1
+#
+# tup = tuple(squares)
+# print(tup)
+#
+# inputs = int(input("Enter a number: "))
+# while True:
+#     if inputs in tup:
+#         print(f"Searching your {inputs}")
+#         print(f"It has {inputs}")
+#         break
+#     else:
+#         print(f"{inputs} is not in a tuple")
+#         break
+#
+# num = int(input("Enter a number to match  with the tuple:"))
+# i = 0  # Start from index 0
+#
+# found = False
+#
+# while i < len(tup):
+#     if tup[i] == num:
+#         print(f"{num} is found at index: {i}")
+#         found = True
+#         break
+#     else:
+#         print("Searching.....")
+#     i = i + 1
+#
+# if not found:
+#     print(f"{num} is not found in the tuple.")
 
-tup = tuple(squares)
-print(tup)
+#For
+"""
+For loop is used for sequential traversal. For traveling the list,string,tuple,etc
+for el in list :
+    Some work
 
-inputs = int(input("Enter a number: "))
-while inputs in tup:
-    print(f"It has {inputs}")
-    print(f"Finding")
+Example : List  = [1,2,3]
+for el in list :
+    print(el)
+
+For loop with else
+for el in list:
+    Some work
+else:
+    Work when loop ends
+
+Example:
+    for el in list:
+        print(el)
+    else:
+        print("End")
+"""
+
+
