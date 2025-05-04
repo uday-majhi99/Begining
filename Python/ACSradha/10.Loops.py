@@ -95,5 +95,48 @@ Example:
     else:
         print("End")
 """
+apple_varieties = [
+    "Adam's Pearmain", "Akane", "Alkmene", "Allington Pippin", "Ambrosia",
+    "Anna", "Antonovka", "Api Etoile", "Arkansas Black", "Ashmead's Kernel",
+    "Aurora Golden Gala", "Autumn Glory", "Bailey Sweet", "Baldwin", "Ballyfatten",
+    "Beacon", "Beauty of Bath", "Belle de Boskoop", "Ben Davis", "Bismarck",
+    "Black Diamond", "Black Gilliflower", "Black Oxford", "Black Twig", "Blenheim Orange",
+    "Bloody Ploughman", "Blue Pearmain", "Braeburn", "Bramley's Seedling", "Brock",
+    "Calville Blanc d'Hiver", "Cameo", "Campanino", "Cap of Liberty", "Cellini",
+    "Champion", "Chelmsford Wonder", "Chisel Jersey", "Civni (Rubens)", "Clarke Pearmain",
+    "Claygate Pearmain", "Clivia", "Coccagee", "Cornish Aromatic", "Cornish Gilliflower",
+    "Cosmic Crisp", "Costard", "Court Pendu Plat", "Cox's Orange Pippin", "Creston",
+    "Crimson Beauty", "Crimson Bramley", "Crimson Delight", "Crimson Gold", "Cripps Pink (Pink Lady)",
+    "Cortland", "Daybreak Fuji", "Egremont Russet", "Empire", "Enterprise",
+    "Envy", "EverCrisp", "Firecracker", "Fuji", "Gala",
+    "Golden Delicious", "Golden Russet", "Granny Smith", "Gravenstein", "Honeycrisp",
+    "Hokuto", "Indo", "Jazz", "Jonagold", "Jonathan",
+    "Kanzi", "Knobby Russet", "Liberty", "Lucy Glo", "Lucy Rose",
+    "McIntosh", "Mila Zagoras Piliou", "Milo Kastorias", "MN55 (Rave)", "Mutsu (Crispin)",
+    "Newton Pippin", "Opal", "Orin", "Pink Luster", "Red Delicious",
+    "Reinette du Canada", "Ribston Pippin", "Rome Beauty", "Roxbury Russet", "Ruby Frost",
+    "Sekai Ichi", "Shizuka", "SnapDragon", "SugarBee", "SweeTango"
+]
+print("Types of potatoes are :")
+for el in apple_varieties:
+    print(el)
+print("\n")
 
+print("List of potato types:")
+potato_types = (
+    "Russet Burbank",
+    "Yukon Gold",
+    "Red Pontiac",
+    "Kennebec",
+    "Adirondack Blue",
+    "Fingerling",
+    "German Butterball",
+    "Purple Majesty",
+    "Carola",
+    "Maris Piper"
+)
 
+for el1 in potato_types:
+    print(el1)
+else:
+    print("End of the potato types")
