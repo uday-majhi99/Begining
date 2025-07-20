@@ -54,3 +54,17 @@ print(cal_fact())
 #  USD to NRS
 
 
+def usd_to_npr():
+    nrs = int(input("Enter the value of NPR : "))
+    usds = 137.28
+    NPR = usds * nrs
+    return NPR
+
+print(f"The value in npr is ",usd_to_npr())
+
+def converter(usd_val):
+    nrs_value = usd_val * 137.28
+    print(usd_val, "USD : ", nrs_value, "NPR")
+
+converter(2)
+
