@@ -12,4 +12,3 @@ datas = fi.read()
 print(datas)
 fi.close()
 
-#
