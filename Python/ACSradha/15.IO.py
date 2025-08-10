@@ -37,4 +37,10 @@ dat = f.write("Hello")
 print(dat)
 f.close()
 
+f = open("readandwrite.text", "r+")
+f.write("This")
+print(f.read())
+f.write("That")
+f.close()
+
 
