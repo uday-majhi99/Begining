@@ -76,9 +76,16 @@ class studen:
         som = 0
         for val in self.marks:
             som += val
-        print(f"This it the average ",som/3)
+        print(f"This it the average {stu1.name}",som/3)
+
+    @staticmethod
+    def hello():
+        print("Hello")
 
 
 stu1 = studen("Rohal", [98,97,99])
+stu1.hello()
 stu1.avrg()
 
+stu1.name = "Iromman"
+stu1.avrg()
