@@ -17,4 +17,21 @@ class Fortuner(Toyota_car):
         self.type = type
 
 car = Fortuner("Brand")
+car = Toyota_car("Toyota","Ty")
 car.Start()
+print(car.name)
+
+class A:
+    varA = "This is A"
+
+class B:
+    varB = "This is B"
+
+class C(A,B):
+    varC = "This is C"
+
+caa = C()
+print(caa.varA)
+print(caa.varB)
+print(caa.varC)
+
